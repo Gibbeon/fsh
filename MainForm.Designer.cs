@@ -37,7 +37,7 @@ partial class MainForm
         btnSubmit.Text = "Submit";
         btnSubmit.Location = new Point(50, 50);
         btnSubmit.BackColor = Color.LightBlue;
-        btnSubmit.Click += (s, e) => { Thread.Sleep(8000); ScreenCapture.Capture(); };
+        btnSubmit.Click += (s, e) => { Find.Toggle(); };
 
         this.Controls.Add(btnSubmit);
 
