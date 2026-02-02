@@ -1,0 +1,25 @@
+{
+    // See https://code.visualstudio.com/docs/editor/tasks for details
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/fsh.csproj" // Path to your .csproj file
+            ],
+            "problemMatcher": "$msCompile", // Enables C# error highlighting
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",       // Show terminal output
+                "panel": "shared",        // Reuse terminal panel
+                "clear": true             // Clear terminal before running
+            }
+        }
+    ]
+}
