@@ -12,3 +12,13 @@ C:\dev\fsh\obj\Debug\net10.0-windows\refint\fsh.dll
 C:\dev\fsh\obj\Debug\net10.0-windows\fsh.pdb
 C:\dev\fsh\obj\Debug\net10.0-windows\fsh.genruntimeconfig.cache
 C:\dev\fsh\obj\Debug\net10.0-windows\ref\fsh.dll
+C:\dev\fsh\obj\Debug\net10.0-windows\fsh.sourcelink.json
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.Asio.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.Core.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.Midi.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.Wasapi.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.WinForms.dll
+C:\dev\fsh\bin\Debug\net10.0-windows\NAudio.WinMM.dll
+C:\dev\fsh\obj\Debug\net10.0-windows\fsh.csproj.AssemblyReference.cache
+C:\dev\fsh\obj\Debug\net10.0-windows\fsh.csproj.Up2Date

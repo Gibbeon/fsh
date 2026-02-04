@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+    <ItemGroup>
+    <PackageReference Include="NAudio">
+      <Version>2.2.1</Version>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>

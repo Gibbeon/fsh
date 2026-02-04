@@ -84,6 +84,20 @@ public static class ScreenCapture
 
             //CaptureWindowToFile(hwnd, "screenshot.png", ImageFormat.Png);
         }
+
+        public static void Activate()
+        {
+            string windowTitle = "World of Warcraft"; // Example window title
+            IntPtr hwnd = User32.FindWindow(null, windowTitle);
+
+            if (hwnd == IntPtr.Zero)
+            {
+                Console.WriteLine("Window not found!");
+                return;
+            }
+
+            User32.SetForegroundWindow(hwnd);
+        }
      
         /// <summary>
         /// Helper class containing Gdi32 API functions
@@ -133,5 +147,8 @@ public static class ScreenCapture
             public static extern IntPtr ReleaseDC(IntPtr hWnd,IntPtr hDC);
             [DllImport("user32.dll")]
             public static extern IntPtr GetWindowRect(IntPtr hWnd,ref RECT rect);
+
+            [DllImport("user32.dll")]
+            public static extern bool SetForegroundWindow(IntPtr hWnd);
         }
     }
